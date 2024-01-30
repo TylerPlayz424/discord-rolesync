@@ -1,6 +1,5 @@
 module DiscordRolesync
   class SyncsController < ::ApplicationController
-    requires_plugin DiscordRolesync
     requires_login
     before_action :ensure_staff
     def sync
