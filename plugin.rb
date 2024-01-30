@@ -27,7 +27,7 @@ register_asset 'stylesheets/mobile/discord-rolesync.scss', :mobile
 
 enabled_site_setting :discord_rolesync_enabled
 
-PLUGIN_NAME ||= 'DiscordRolesync'
+PLUGIN_NAME ||= 'discord-rolesync'
 
 load File.expand_path('lib/discord-rolesync/engine.rb', __dir__)
 after_initialize do
